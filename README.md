@@ -1,63 +1,66 @@
-# ans/pokédex
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-**This project will depend on your ability to fulfil the task 
-requirements. Any potential design skills are a bonus, but usability, 
-performance and security will be taken into account.**
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
-## Introduction
-This project provides a starting point which will allow you to create your own 
-web-based encyclopedia based on the popular franchise Pokémon - also known as 
-a pokédex.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Project Requirements
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-We would like to have this project completed in Laravel. You are welcome to use Docker.
+## Learning Laravel
 
-Please use the latest version of Laravel available: ![Laravel](https://img.shields.io/packagist/v/laravel/framework)
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You can also utilise frontend frameworks like VueJS, React or utility frameworks like TailwindCSS. **Please bear in mind that design and integration of frontend frameworks is a bonus - we are not expecting you to do this**
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-## Task Requirements
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-For this challenge, we require a web app in the form of a pokédex, allowing users
-the ability to search for and display information for a specific pokémon.
+## Laravel Sponsors
 
-A RESTful API is available at [Pokéapi](https://pokeapi.co/) which will 
-provide you with all the data that you will need. You do not need to create 
-an account nor authenticate to consume the API, however, please 
-be aware that this API is rate-limited.
- 
-To get started, please fork of this repository either here on GitHub or via another public repository like GitLab.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-We recommend that you spend no more than one hour on this challenge,
-we are more interested in how you approach the task than spending lots of time on it.
+### Premium Partners
 
-Once the time is up, feel free to use comments/notes/pseudo code on how you would proceed further.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-### User Stories
+## Contributing
 
-| As an <type of user> | I want to <perform some task> | so that I can <achieve some goal> |
-|---|---|---|
-| End User | Search for a specific pokémon  | Improve my knowledge of pokémon abilities for my next Gym battle |
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Code of Conduct
 
-### Acceptance Criteria
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-| GIVEN | WHEN | THEN |
-|---|---|---|
-| I am on a main pokédex page | The page loads | I can see a full list of available pokémon |
-| ^ | ^ | I can see a search form to enter the name of a Pokemon to filter the full list |
-| ^ | I enter a name AND search | I can see a filtered list of matching results |
-| ^ | I can click an entry in the list | I am redirected to an overview page for the selected pokémon |
-| I am on the pokémon overview page | The page loads | I can see an image, name, species, height/weight and any abilities |
-| ^ | ^ | I can see a link back to the main page |
+## Security Vulnerabilities
 
- 
-## Submission
-When you are ready to submit, please ensure you have forked this repository. No merge/pull request is required,
-and provide us with a link to your attempt.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## Copyright
-All trademarks are the property of their respective owners.
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
